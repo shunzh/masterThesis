@@ -1,0 +1,44 @@
+\documentclass[10pt]{book}
+\usepackage{latexsym}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{listings}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amsmath}
+\usepackage{amssymb} 
+\usepackage{amsthm}
+\usepackage{color}
+
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\E}{\mathrm{E}}
+\newcommand{\Cov}{\mathrm{Cov}}
+\newcommand{\Var}{\mathrm{Var}}
+
+% graphs in subdirectories
+\graphicspath{{rldm15/}{modularLiterature/}}
+
+\title{[Master thesis on Factored RL]}
+\author{Shun Zhang}
+\date{}
+
+\begin{document}
+\maketitle
+
+\chapter{Literature Review}
+
+\include{modularLiterature/report}
+
+\chapter{Experiment: on Human Data}
+
+\include{rldm15/content}
+
+\bibliographystyle{plain}
+\bibliography{main,rldm15/paper}
+
+\end{document}
