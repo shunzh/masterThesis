@@ -1,3 +1,5 @@
+\section{Overview}
+
 Markov Decision Process
 MDP:
 \begin{itemize}
@@ -7,7 +9,26 @@ MDP:
 \item Reward: $R: S \times A \times S \rightarrow \mathcal{R}$.
 \end{itemize}
 
+\begin{sidewaystable}
+\centering
+\begin{tabular}{| l | l | l | l | l |}
+  \hline
+  Approaches & State & Action & Reward & Value/Q \\
+  \hline
+  MDP with Option & / & Aggregated actions & / & /\\
+  \hline
+  Factored MDP & / & / & / & Decomposed or not\\
+  \hline
+  HAM & / & / & / & / \\
+  \hline
+  Modular RL & / & / & / & / \\
+  \hline
+\end{tabular}
+\label{tbl:overview}
+\caption{Overview of decomposition or aggregation of components of MDP.}
+\end{sidewaystable}
 
+\section{Forward Model}
 
 Abstraction on MDP
 \begin{itemize}
@@ -84,3 +105,5 @@ Topics for Future Work
   \item Dynamic abstraction. 
   \item Integrating Deep Learning. 
 \end{itemize}
+
+\section{Backward Model}
