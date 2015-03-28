@@ -25,18 +25,30 @@
 % graphs in subdirectories
 \graphicspath{{rldm15/}{RLLiterature/}}
 
-\title{[Master thesis on Factored RL]}
+\title{Parameterized Modular Inverse Reinforcement Learning}
 \author{Shun Zhang}
 \date{}
 
 \begin{document}
 \maketitle
 
+\chapter{Introduction}
+
 \chapter{Literature Review}
-\include{RLLiterature/report}
+\input{RLLiterature/report}
+
+\chapter{Parameterized Modular Inverse Reinforcement Learning}
+\input{rldm15/3-irl}
 
 \chapter{Application: Human Behavior Modeling}
-\include{rldm15/content}
+\input{rldm15/2-domain}
+\input{rldm15/4-experiments}
+\input{rldm15/5-conclusion}
+
+\chapter{Application: Influencing Agents in a Flock}
+\input{flocking}
+
+\chapter{Conclusion}
 
 \bibliographystyle{plain}
 \bibliography{main,rldm15/paper,RLLiterature/report}
