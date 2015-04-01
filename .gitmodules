@@ -1,6 +1,6 @@
-[submodule "rldm15"]
-	path = rldm15
-	url = git@github.com:szhang90/rldm15.git
 [submodule "RLLiterature"]
 	path = RLLiterature
 	url = git@github.com:szhang90/RLLiterature.git
+[submodule "nips15"]
+	path = nips15
+	url = git@github.com:szhang90/nips15.git
