@@ -218,6 +218,10 @@
 %
 %	Here some macros that are needed in this document:
 
+\renewcommand{\P}{\mathbb{P}}
+\newcommand{\Cov}{\mathrm{Cov}}
+\newcommand{\E}{\mathrm{E}}
+\newcommand{\Var}{\mathrm{Var}}
 
 \newcommand{\latexe}{{\LaTeX\kern.125em2%
                       \lower.5ex\hbox{$\varepsilon$}}}
@@ -315,7 +319,7 @@ fail me to tell of \ldots
 \input{RLLiterature/report}
 
 \chapter{Parameterized Modular Inverse Reinforcement Learning}
-\input{nips15/2-literature}
+\input{nips15/2-preliminaries}
 \input{nips15/3-rl}
 
 \chapter{Application: Human Behavior Modeling}
@@ -351,7 +355,7 @@ fail me to tell of \ldots
                 % explicitly cited in the text. 		     %
 		%						     %
 \bibliographystyle{plain}  % Here the bibliography 		     %
-\bibliography{diss}        % is inserted.			     %
+\bibliography{diss,nips15/paper,RLLiterature/report}        % is inserted.			     %
 \index{Bibliography@\emph{Bibliography}}%			     %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
