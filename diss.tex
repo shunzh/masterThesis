@@ -47,6 +47,7 @@
 \usepackage{amssymb} 
 \usepackage{color}
 \usepackage{rotating}
+\usepackage{multirow}
 
 \graphicspath{{nips15/}{RLLiterature/}}
 
@@ -316,20 +317,17 @@ fail me to tell of \ldots
 \chapter{Introduction}
 \input{intro}
 
-\chapter{Literature Review}
-\input{RLLiterature/report}
-
 \chapter{Modular Inverse Reinforcement Learning}
 \input{nips15/2-preliminaries}
 \input{nips15/2-1-modularRL.tex}
 \input{nips15/2-2-modularIRL.tex}
+
+\chapter{Literature Review}
+\input{RLLiterature/report}
+
+\chapter{Evaluations and Applications}
 \input{nips15/3-grid_world.tex}
-
-\chapter{Application: Human Behavior Modeling}
 \input{nips15/4-human}
-
-\chapter{Application: Influencing Agents in Swarming Problem}
-\input{flocking}
 
 \chapter{Conclusion}
 \input{conclude}
