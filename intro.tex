@@ -1,8 +1,30 @@
-Humans are able to learn and accomplish some complex tasks more efficiently than
-reinforcement learning agents. The possibilities are humans have some prior
+Reinforcement learning has shown advantages in learning with only the task
+specifications and feedback signals. A learning agent can interact with the
+task. The agent can observe a current state, and take an action to observe
+transtion to the next state and a reward signal. The underlying model is either
+known or not by the agent. Concretely, the task is formulated as a
+Markov Decision Process (MDP), which will be defined in details later.
+The objective of the task is to take actions to maximize the accumulated payoff.
+In recent years, reinforcement learning has been successfully applied to
+helicopter control \cite{} and Atari games \cite{}.
+
+Reinforcement learning is anagolous to the way that human learns. Newly borned
+humans have limited prior knowledge of the world. They can learn to optimize
+their behavior by observing the environment and perceiving joy or pain. So it is
+of interests to discover the underlying decision model of human. In both fields
+of artificial intelligence and neuroscience, people believe that reinforcement
+learning is the model that can explain humans' learning.
+
+However, humans are able to learn and accomplish complex tasks more efficiently than
+reinforcement learning agents. The possibilities are that humans have some prior
 knowledge on how to accomplish smaller and easier tasks. When they tackle a
-complex task, they only need to learn which basic skills they need to use, and
+complex task, they only need to decide which basic skills they need to use, and
 how to combine them.
+To understand how human subjects make decisions and to test our hypothesis, we
+propose an novel inverse reinforcement learning approach in this thesis.
+We first tested the correctness and efficiency of this approach in a toy domain,
+and further collected humans' behavior in a navigation task. We used such method
+to analyze how the behavior is generated.
 
 This thesis is organized as follows. Chapter~\ref{chp:mirl} introduces 
 preliminary concepts of reinforcement learning, inverse reinforcement learning,
