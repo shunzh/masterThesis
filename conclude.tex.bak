@@ -31,4 +31,4 @@ affected mainly by this module.
 In sum, we show in this thesis that modular reinforcement learning is a
 promising explanation for human's navigation behavior. It is of interests to see
 its analysis on different humans' behavior, and using the recovered parameters
-for a learning agent to tackle similar tasks.
+for a learning agant to tackle similar tasks.
