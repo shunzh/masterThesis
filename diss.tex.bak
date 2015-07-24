@@ -304,12 +304,12 @@ natural behaviors, one approach is to decompose complex tasks into independent
 sub-tasks, or modules. Using this approach, we extended an earlier work on 
 modular inverse reinforcement learning, and developed what we called
 parameterized modular inverse reinforcement learning algorithm. We first
-demonstrate the correctness and efficiency of our algorithm in a simulated
+demonstrate the cor rectness and efficiency of our algorithm in a simulated
 navigation task. We then show our algorithm able to estimate a reward function
 and discount factor for real human navigation behaviors in a virtual
 environment, and train an agent that imitates the behavior of human subjects.
 \footnote{This is the extension of a nonarchived paper in RLDM 2015, and
-overlaps largely with a recent submission co-authored with Ruohan Zhang (equal
+overlaps largely with a recent submission co-authered with Ruohan Zhang (equal
 contribution), Matthew Tong, Mary Hayhoe and Dana Ballard.}
 \indent
 
