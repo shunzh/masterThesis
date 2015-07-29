@@ -5,6 +5,7 @@ all:
 	pdflatex diss.tex
 
 diff:
+	latexdiff --flatten ../masterThesis_old/diss.tex diss.tex > diff.tex
 	pdflatex diff.tex
 	bibtex diff
 	pdflatex diff.tex
